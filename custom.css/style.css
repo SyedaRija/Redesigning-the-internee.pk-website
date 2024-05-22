@@ -182,16 +182,18 @@ ul {
     color: black;
 }
 
-.container .right{
+.container .right {
     width: 55vw;
     height: 110vh;
     background-color: rgb(240, 238, 238);
 }
-.hero-section{
+
+.hero-section {
     width: 100%;
     margin-top: 50px;
 }
-.main{
+
+.main {
     width: 70%;
     display: flex;
     justify-content: center;
@@ -200,37 +202,243 @@ ul {
     margin-top: 100px;
     margin: auto;
 }
-.main img{
+
+.main img {
     margin: auto;
     height: auto;
     margin-top: 25px;
     border-radius: 20px 2px 20px 20px;
     background-color: #fff;
-    box-shadow: 2px 1px 7px 0px rgba(0, 0, 255, .2);;
+    box-shadow: 2px 1px 7px 0px rgba(0, 0, 255, .2);
+    ;
 }
-.main .main-heading{
+
+.main .main-heading {
     font-size: 50px;
     padding: 40px;
 }
-.main .main-reminder{
+
+.main .main-reminder {
     font-size: 20px;
     letter-spacing: 0.3px;
     line-height: 160%;
     color: #4A5056;
     padding-bottom: 20px;
 }
-.main span{
+
+.main span {
     font-size: 20px;
     font-weight: 800;
     padding-bottom: 30px;
 }
-.cards-section{
-    width: 100%;
+
+.cards-section {
+    width: 95%;
     height: auto;
-    margin-top: 35px;
+    /* margin-top: 35px; */
+    margin: 30px;
     background-color: #43a724;
+    border-radius: 30px;
+    color: white;
+    box-shadow: 1px 9px 9px 0px #e8d1a7;
+}
+
+.cards-wrapper {
+    display: flex;
+    padding: 30px 0px;
+    
+}
+.left-side{
+    margin: 30px 0;
+    width: 24%;
+}
+.left-side h2 {
+    width: 353px;
+    font-size: 32px;
+    color: white;
+    padding: 45px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 296px;
+    height: auto;
+    padding: 12px;
+    margin: 10px;
+    margin-bottom:10px ;
+    background-color: white;
+    border-radius: 23px;
+    padding-bottom: 41px;
+}
+
+.card img {
+    margin: 23px 0;
+}
+.card a{
+    text-decoration: none;
+}
+
+.card h3 {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin: 12px 0;
+}
+.card p{
+    font-size: 15px;
+    width: 233px;
+    line-height: 23px;
+    text-align: center;
+    font-weight: 300;
+    margin: 26px 12px;
+}
+.card button{
+    cursor: pointer;
+    font-size: 15px;
+    margin: 12px 73px;
+    padding: 10px;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    background-color: #43a724;
+
+}
+.cards-buttons{
+    display: flex;
+    justify-content: center;
+}
+.cards-buttons ul{
+    margin: 8px;
+}
+.cards-buttons ul li{
+    list-style-type: none;
+    margin: 0 5px;
+    
+}
+.cards-buttons ul li button{
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+    border: 1px solid rgb(234, 231, 231);
+    border-radius: 23px;
+    background-color: #43a724;
+}
+.cards-buttons ul li button:hover{
+    background-color: white;
+}
+.cards-section .cards-para {
+    display: flex;
+    justify-content: center;
+}
+.cards-section .cards-para p{
+    font-size: 30px;
+    color: white;
+    padding: 12px;
+}
+.cards-section .cards-para p span{
+    font-size: 30px;
+    font-weight: 600;
     color: white;
 }
-.cards-wrapper{
-    /* background: linear-gradient(180deg, #43a724 0%, #43a724  100%); */
+.job-internship{
+    margin-bottom: 10%;
+}
+.job-section{
+    width: 100%;
+}
+.job-container{
+    width: 100%;
+    display: flex;
+    margin-top: 58px;
+    
+}
+.job-container p{
+    width: 533px;
+    font-size: 19px;
+    line-height: 29px;
+    margin: 120px 100px;
+}
+.job-container p span{
+    font-size: 20px;
+    font-weight: 700;
+}
+.job-btn{
+    padding: 9px 9px;
+    width: 184px;
+    font-size: 18px;
+    margin: auto;
+    margin-right: 100px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    color: black;
+}
+.job-btn:hover{
+    background-color:#8c52fe ;
+    color: white;
+}
+.job-cards{
+    display: flex;
+    align-items: center;
+    width:95% ;
+    margin: 10px 30px;
+    padding: 20px 35px;
+}
+.job-thumb{
+    border: 1px solid rgb(218, 215, 215);
+    border-radius: 12px;
+    width: 350px;
+    margin: 0px 17px;
+    padding-bottom: 20px;
+    cursor:pointer;
+}
+.job-thumb:hover{
+    box-shadow: 2px 14px 24px -4px rgb(197 192 192);
+}
+
+.job-image img{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 24px;
+    border-radius: 12px;
+}
+.job-title{
+    font-size: 15px;
+}
+.job-title h3{
+    margin: 21px 10px;
+}
+.job-title h3 a{
+    text-decoration: none;
+    padding: 12px 23px;
+}
+.job-thumb hr{
+    background-color: #cdcfd2;
+    margin: 12px 23px;
+    height: 1px;
+    outline: none;
+    border: none;
+}
+.job-card-button{
+    margin: 24px 0px;
+}
+.job-card-button a{
+    text-decoration: none;
+    margin-left: 219px;
+    padding: 9px 12px;
+    background-color: #43a724;
+    color: white;
+    border-radius: 8px;
+}
+.card-container{
+    background-color: #f8f9fa;
+    width: 100%;
+    height: 100vh;
 }
