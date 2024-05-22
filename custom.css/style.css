@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    color: #21282E;
+    /* overflow: hidden; */
+}
+
+header {
+    width: 100%;
+    padding: 30px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    padding: 30px 60px;
+}
+
+.navbar,
+ul {
+    display: flex;
+    align-items: center;
+    margin: 0 30px;
+}
+
+.main-menu {
+    margin-left: 40px;
+}
+
+.navbar ul li {
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.main-menu ul li a {
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+.navbar ul li a:hover {
+    color: gray;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.buttons {
+    margin-left: 32px;
+}
+
+.buttons .job {
+    background-color: #43a724;
+    color: white;
+    padding: 15px 26px;
+    margin: 0 16px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #43a724;
+    border-radius: 26px;
+    cursor: pointer;
+}
+
+.buttons .job:hover {
+    opacity: 0.8;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.buttons .login {
+    background-color: #ffff;
+    color: #43a724;
+    padding: 15px 26px;
+    margin: 0 16px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #43a724;
+    border-radius: 26px;
+    cursor: pointer;
+}
+
+.buttons .login:hover {
+    color: #67b250;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    margin-top: 14px;
+}
+
+.container .left {
+    width: 45vw;
+    padding: 8px 30px;
+    margin-left: 18px;
+}
+
+.left h1 {
+    font-size: 58px;
+    color: #21282E;
+    margin: 10px 0;
+}
+
+.left span {
+    font-size: 55px;
+    font-weight: bolder;
+    color: #43a724;
+    margin: 12px 0;
+}
+
+.left p {
+    font-size: 22px;
+    color: #717275;
+    margin-top: 23px;
+}
+
+.images {
+    padding: 12px 18px;
+}
+
+.images img {
+    padding: 12px;
+}
+
+.left-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.job-btn {
+    display: flex;
+    flex-direction: column;
+}
+
+.job-btn .job {
+    width: 200px;
+    background-color: #ffff;
+    color: #43a724;
+    padding: 15px 26px;
+    margin: 0 16px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid hsl(106, 65%, 40%);
+    border-radius: 26px;
+    cursor: pointer;
+}
+
+.job-btn .job:hover {
+    color: #67b250;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.lms-btn {
+    display: flex;
+    flex-direction: column;
+}
+
+.lms-btn .lms {
+    width: 200px;
+    background: linear-gradient(80deg, #84f661, #3dd442);
+    color: #ffff;
+    padding: 15px 26px;
+    margin: 0 16px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 26px;
+    cursor: pointer;
+}
+
+.left-buttons .lms:hover {
+    opacity: 0.8;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.left-buttons span {
+    text-align: center;
+    font-style: italic;
+    font-size: 13px;
+    color: black;
+}
+
+.container .right{
+    width: 55vw;
+    height: 110vh;
+    background-color: rgb(240, 238, 238);
+}
+.hero-section{
+    width: 100%;
+    margin-top: 50px;
+}
+.main{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100px;
+    margin: auto;
+}
+.main img{
+    margin: auto;
+    height: auto;
+    margin-top: 25px;
+    border-radius: 20px 2px 20px 20px;
+    background-color: #fff;
+    box-shadow: 2px 1px 7px 0px rgba(0, 0, 255, .2);;
+}
+.main .main-heading{
+    font-size: 50px;
+    padding: 40px;
+}
+.main .main-reminder{
+    font-size: 20px;
+    letter-spacing: 0.3px;
+    line-height: 160%;
+    color: #4A5056;
+    padding-bottom: 20px;
+}
+.main span{
+    font-size: 20px;
+    font-weight: 800;
+    padding-bottom: 30px;
+}
+.cards-section{
+    width: 100%;
+    height: auto;
+    margin-top: 35px;
+    background-color: #43a724;
+    color: white;
+}
+.cards-wrapper{
+    /* background: linear-gradient(180deg, #43a724 0%, #43a724  100%); */
+}
